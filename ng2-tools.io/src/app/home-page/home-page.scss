@@ -1,0 +1,36 @@
+@import "../styles/app-theme";
+
+.home-page {
+    height: calc(100vh - 64px);
+
+    .presentation-image {
+        height: 60%;
+        max-height: 60%;
+        background-color: $primary;
+    }
+
+    .get-started {
+        height: 40%;
+        max-height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        > div {
+            padding-bottom: 10px;
+        }
+
+        button {
+            height: 50px;
+        }
+    }
+}
+
+/* Portrait and Landscape */
+@media (max-device-width: 1280px) {
+    .home-page {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
