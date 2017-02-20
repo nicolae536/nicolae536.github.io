@@ -19,7 +19,7 @@ generic-layout {
         }
     }
 
-    .layout-presentation {        
+    .layout-presentation {
         padding: 50px;
 
         md-tab-group {
@@ -27,12 +27,12 @@ generic-layout {
 
                 .mat-tab-body-content {
                     overflow-x: auto;
-                    padding-top: 1em; 
+                    padding-top: 1em;
 
                     .other-text {
                         font-size: 2em;
                         padding: 1em;
-                    }                   
+                    }
                 }
             }
         }
@@ -41,13 +41,13 @@ generic-layout {
     &.mobile {
         .layout-header {
             padding: 15px 20px;
-            
+
             .header-text {
                 font-size: 1.2em;
             }
         }
 
-        .layout-presentation {        
+        .layout-presentation {
             padding: 10px;
         }
     }
@@ -57,7 +57,7 @@ generic-layout {
             padding: 25px;
         }
 
-        .layout-presentation {        
+        .layout-presentation {
             padding: 25px 35px;
         }
     }
