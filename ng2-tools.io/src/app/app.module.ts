@@ -19,8 +19,8 @@ import { AppComponent } from './app.component';
         ...APP_COMPONENTS
     ],
     imports: [
-        Ng2TableModule,
         CommonModule,
+        Ng2TableModule,
         FormsModule,
         BrowserModule,
         MaterialModule,
