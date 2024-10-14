@@ -3,7 +3,7 @@
   --diff-width: calc(70vw / 2) !important;
   --big-column-width: calc(70vw / 2) !important;
   --sidebar-split-gutter: 10px !important;
-  --flow-offset-diff: calc(70vw / 2) !important;
+  --flow-offset-diff: calc(70vw / 4) !important;
   --flow-offset-info: calc(70vw / 2) !important;
   --flow-offset-matrix: calc(70vw / 2) !important;
 }
