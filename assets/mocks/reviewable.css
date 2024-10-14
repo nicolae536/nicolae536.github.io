@@ -1,11 +1,11 @@
 :root {
-  --full-diff-width: 70vw;
-  --diff-width: calc(70vw / 2);
-  --big-column-width: calc(70vw / 2);
-  --sidebar-split-gutter: 10px;
-  --flow-offset-diff: calc(70vw / 2);
-  --flow-offset-info: calc(70vw / 2);
-  --flow-offset-matrix: calc(70vw / 2);
+  --full-diff-width: 70vw !important;
+  --diff-width: calc(70vw / 2) !important;
+  --big-column-width: calc(70vw / 2) !important;
+  --sidebar-split-gutter: 10px !important;
+  --flow-offset-diff: calc(70vw / 2) !important;
+  --flow-offset-info: calc(70vw / 2) !important;
+  --flow-offset-matrix: calc(70vw / 2) !important;
 }
 
 .tab:before {
