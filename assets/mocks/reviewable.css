@@ -1,6 +1,6 @@
 :root {
   --full-diff-width: 70vw !important;
-  --diff-width: calc(70vw / 2) !important;
+  --diff-width: calc(70vw / 2.1) !important;
   --big-column-width: calc(70vw / 2) !important;
   --sidebar-split-gutter: 10px !important;
   --flow-offset-diff: calc(70vw / 4) !important;
