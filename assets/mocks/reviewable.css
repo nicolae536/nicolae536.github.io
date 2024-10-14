@@ -1,3 +1,13 @@
+:root {
+  --full-diff-width: 70vw;
+  --diff-width: calc(70vw / 2);
+  --big-column-width: calc(70vw / 2);
+  --sidebar-split-gutter: 10px;
+  --flow-offset-diff: calc(70vw / 2);
+  --flow-offset-info: calc(70vw / 2);
+  --flow-offset-matrix: calc(70vw / 2);
+}
+
 .tab:before {
   content: "\00bb\00a0";
 }
