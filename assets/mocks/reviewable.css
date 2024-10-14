@@ -1,0 +1,29 @@
+.tab:before {
+  content: "\00bb\00a0";
+}
+
+/* Languages where tabs are used for indentation -- don't highlight. */
+.go.line.content .tab:before {
+  content: "\00a0\00a0";
+}
+
+:root {
+  --coverage-bar-color-full: #78ff3d;
+  --coverage-bar-color-partial: #fff73d;
+  --coverage-bar-color-none: #E80000;
+}
+
+/* Show line numbers. */
+div[data-line-number]:not([data-line-number="0"]):before {
+  content:attr(data-line-number);
+  position:absolute;
+  color: #444; /* line number text color */
+  padding: 1px 3px 3px;
+  font-size: x-small;
+  display: block;
+  width: 20px;
+  text-align: right;
+}
+div[data-line-number]:not([data-line-number="0"]) div.hljs {
+  margin-left: 26px;
+}
